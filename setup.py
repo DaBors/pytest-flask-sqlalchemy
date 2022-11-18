@@ -18,8 +18,8 @@ setup(
     packages=['pytest_flask_sqlalchemy'],
     install_requires=['pytest>=3.2.1',
                       'pytest-mock>=1.6.2',
-                      'SQLAlchemy>=1.2.2',
-                      'Flask-SQLAlchemy>=2.3',
+                      'SQLAlchemy>=1.4.18',
+                      'Flask-SQLAlchemy>=3.0',
                       'packaging>=14.1'],
     extras_require={'tests': ['pytest-postgresql>=2.4.0,<4.0.0', 'psycopg2-binary', 'pytest>=6.0.1']},
     classifiers=[
